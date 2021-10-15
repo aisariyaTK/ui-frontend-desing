@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend UI Design</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- font mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="container">
+                <div class="grid-nav">
+                    <div class="brand">
+                        <h1>agency</h1>
+                    </div>
+                    <div class="navbar">
+                        <a href="#">Home</a>
+                        <a href="#">About us</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Support</a>
+                    </div>
+                    <div class="contact">
+                        <button onclick="scrollContactFunction()">contact</button>
+                    </div>
+                    <div class="bar">
+                        <i class="fa fa-bars" onclick="openNav()" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+  
+        <div class="head">
+            <div class="container">
+                <div class="grid-head">
+                    <div class="creative">
+                        <h1>Creative <br> Design Agency</h1>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Etiam vel dolor id nulla gravida blandit.</p>
+                        </div>
+                        <a href="#">learn more</a>
+                    </div>
+                    <img src="img/header/Image.png" alt="" width="80%">
+                </div>
+            </div>
+        </div>
+    </header>
+  
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Our Services</a>
+        <a href="#">Support</a>
+        
+        <div class="contact">
+            <a onclick="scrollContactFunction()">Contact</a>
+        </div>
+        
+        <div class="Social">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+  
+    <section>
+        <div class="about-us">
+            <img class="bg-image" src="img/about-us/elements.png" alt="" width="22%">
+            <div class="container">
+                <div class="grid-about-us">
+                    <img src="img/about-us/image.png" alt="" width="100%">
+                    <div class="about">
+                        <span>about us</span>
+                        <h1>
+                            Digital Agency <br>
+                            Providing various <br>
+                            Services
+                        </h1>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <p>magna aliqua. Ut enim ad minim veniam,.</p>
+                        </div>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="our-services">
+            <div class="container">
+                <div class="grid-our-services">
+                    <div class="service">
+                        <span>our services</span>
+                        <h1>
+                            We can take your <br>
+                            business to the <br>
+                            next level
+                        </h1>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <p>magna aliqua. Ut enim ad minim veniam,.</p>
+                        </div>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div class="services-item">
+                        <div class="grid-service-item">
+                            <div class="grid-item1">
+                                <div class="item">
+                                    <img src="img/our-services/Vector Smart Object1.png" alt="" width="25%">
+                                    <h2>UI/UX design</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, <br>
+                                        consectetur adipiscing elit, <br>
+                                        sed do eiusmod 
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <img src="img/our-services/Vector Smart Object2.png" alt="" width="25%">
+                                    <h2>Games</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, <br>
+                                        consectetur adipiscing elit, <br>
+                                        sed do eiusmod 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="grid-item2">
+                                <div class="item">
+                                    <img src="img/our-services/Vector Smart Object3.png" alt="" width="25%">
+                                    <h2>Branding</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, <br>
+                                        consectetur adipiscing elit, <br>
+                                        sed do eiusmod 
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <img src="img/our-services/Vector Smart Object4.png" alt="" width="25%">
+                                    <h2>Marketing</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, <br>
+                                        consectetur adipiscing elit, <br>
+                                        sed do eiusmod 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div class="testimonials">
+            <img class="oval" src="img/testimonials/Oval.png" alt="" width="15%">
+            <div class="header">
+                <p>testimonials</p>
+                <h1>What people say</h1>
+            </div>
+            <div class="cards-box">
+                <div class="card hide">
+                    <img class="layer" src="/img/testimonials/Layer.png" alt="" width="40%">
+                    <p>This is due to their excellent service, competitive</p>
+                    <p>pricing and customer support. It’s throughly</p>
+                    <p>refresing to get such a personal touch. t</p>
+                    <h4>Zoltan Nemeth</h4>
+                    <img src="img/testimonials/star.png" alt="" width="20%">
+                    <div class="arrow">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="layer" src="/img/testimonials/Layer.png" alt="" width="40%">
+                    <p>This is due to their excellent service, competitive</p>
+                    <p>pricing and customer support. It’s throughly</p>
+                    <p>refresing to get such a personal touch. t</p>
+                    <h4>Zoltan Nemeth</h4>
+                    <img src="img/testimonials/star.png" alt="" width="20%">
+                    <div class="arrow">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="layer" src="/img/testimonials/Layer.png" alt="" width="40%">
+                    <p>This is due to their excellent service, competitive</p>
+                    <p>pricing and customer support. It’s throughly</p>
+                    <p>refresing to get such a personal touch. t</p>
+                    <h4>Zoltan Nemeth</h4>
+                    <img src="img/testimonials/star.png" alt="" width="20%">
+                    <div class="arrow">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="layer" src="/img/testimonials/Layer.png" alt="" width="40%">
+                    <p>This is due to their excellent service, competitive</p>
+                    <p>pricing and customer support. It’s throughly</p>
+                    <p>refresing to get such a personal touch. t</p>
+                    <h4>Zoltan Nemeth</h4>
+                    <img src="img/testimonials/star.png" alt="" width="20%">
+                    <div class="arrow">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div id="contact" class="contact-us">
+            <div class="container">
+                <div class="grid-contact-us">
+                    <img class="bg-image1" src="img/contact-us/Oval.png" alt="" width="12%">
+                    <img class="bg-image2" src="img/contact-us/elements.png" alt="" width="10%">
+                    <img class="bg-image3" src="img/contact-us/box.png" alt="" width="35%">
+                    <div class="contact">
+                        <span>contact us</span>
+                        <h1>
+                            Don’t Hesitate to <br>
+                            Contact us for <br>
+                            any Information.
+                        </h1>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <p>magna aliqua. Ut enim ad minim veniam,.</p>
+                        </div>
+                        
+                    </div>
+                    <form>
+                        <fieldset >
+                            <legend><p>Personalia</p></legend>
+                            <p>john doe</p>
+                          </fieldset>
+                        <input type="email" name="email" id="email" placeholder="Email" width="100%" required> <br>
+                        <textarea name="message" id="message" cols="30" rows="6" placeholder="Message" required></textarea> <br>
+                        <button type="submit" id="myBtn">summit</button>
+                    </form>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span><br>
+                        <p>Do you want to submit?</p>
+                        <div class="flex-item">
+                            <button class="ok" onclick="document.getElementById('myModal').style.display='none'">OK</button>
+                            <button class="cancel" onclick="document.getElementById('myModal').style.display='none'">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="container">
+            <div class="flex-footer">
+                <div class="brand">
+                    <h1>agency</h1>
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="Social">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Chirag Bactor 2020</p>
+            </div>
+        </div>
+    </footer>
+  
+  
+    <script src="js/app.js"></script>
+
+</body>
+</html>
